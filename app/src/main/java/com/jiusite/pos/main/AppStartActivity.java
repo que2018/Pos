@@ -1,8 +1,10 @@
-package com.jiusite.pos;
+package com.jiusite.pos.main;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.jiusite.pos.R;
 
 public class AppStartActivity extends Activity {
 
