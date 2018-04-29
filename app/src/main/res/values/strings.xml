@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Pos</string>
+	<string name="save">保存</string>
+	<string name="place">下单</string>
+	<string name="update">更新</string>
+	<string name="cancel">取消</string>
+	<string name="complete">完成</string>
+	<string name="yes">确定</string>
+	<string name="viod">无效</string>
+	<string name="hold">挂起</string>
+	<string name="sync">同步</string>
+	<string name="table">桌号</string>
+	<string name="clear">清除</string>
+	<string name="pickup">自取</string>
+	<string name="togo">外卖</string>
+	<string name="connect">连接</string>
+	<string name="ID">单号</string>
+	<string name="ok">确定</string>
+	<string name="unset">取消</string>
+	<string name="logout">登出</string>
+	<string name="back">返回</string>
+	<string name="NO_table">号桌</string>
+	<string name="sync_user">同步用户</string>
+	<string name="server_ip">服务器IP</string>
+	<string name="version_number">版本号</string>
+	<string name="place_empty">清单为空</string>
+	<string name="order_empty">订单为空</string>
+	<string name="login_error">登录错误</string>
+	<string name="place_error">下单失败</string>
+	<string name="network_error">网络错误</string>
+	<string name="confirm_delete">确定删除</string>
+	<string name="syncing_data">正在同步数据..</string>
+	<string name="server_ipaddress">服务器IP地址</string>
+	<string name="no_network_connection">没有连接到无线网络</string>
+	<string name="not_able_find_pos_server">找不到Pos机服务器</string>
 </resources>

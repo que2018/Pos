@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/xxx"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+	<RelativeLayout 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" >
+		
+		<ImageView
+			android:id="@+id/dot0"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_centerInParent="true"
+			android:src="@drawable/dot_unselect_circle" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" >
+		
+		<ImageView
+			android:id="@+id/dot1"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_centerInParent="true"
+			android:src="@drawable/dot_unselect_circle" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" >
+		
+		<ImageView
+			android:id="@+id/dot2"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_centerInParent="true"
+			android:src="@drawable/dot_unselect_circle" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" >
+		
+		<ImageView
+			android:id="@+id/dot3"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_centerInParent="true"
+			android:src="@drawable/dot_unselect_circle" />
+	
+	</RelativeLayout>
+	   
+</LinearLayout>

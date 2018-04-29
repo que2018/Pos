@@ -1,0 +1,15 @@
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/setting_panel"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ded600" >	
+	
+	<ListView
+		android:id="@+id/setting_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:divider="@null"
+		android:dividerHeight="0dp" />			
+	
+</RelativeLayout>	

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+	
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        android:orientation="horizontal"
+		android:padding="5dp" >
+
+        <com.jiusite.customview.OrderView
+            android:id="@+id/order_column0"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+			android:layout_marginRight="5dp" />
+		
+		<com.jiusite.customview.OrderView
+            android:id="@+id/order_column1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+			android:layout_marginRight="5dp" />
+		
+		<com.jiusite.customview.OrderView
+            android:id="@+id/order_column2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+			android:layout_marginRight="5dp" />
+		
+		<RelativeLayout
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:layout_weight="1">
+		</RelativeLayout>
+		
+    </LinearLayout>
+
+</RelativeLayout>

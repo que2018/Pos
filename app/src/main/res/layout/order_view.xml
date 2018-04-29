@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+	android:orientation="vertical" >
+	
+    <RelativeLayout
+		android:id="@+id/header"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:padding="5dp" >
+		
+		<TextView
+            android:id="@+id/order_id"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+			android:textSize="18dp"				
+			android:textColor="#fff"
+            android:gravity="center_vertical|center_horizontal" />
+	
+    </RelativeLayout>
+	
+	<RelativeLayout
+		android:id="@+id/body"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:background="@drawable/order_item_body"
+		android:padding="5dp" >
+		
+		<TextView
+            android:id="@+id/customer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+			android:textSize="18dp"				
+			android:textColor="#666666"
+            android:gravity="center_vertical|center_horizontal" />
+	
+    </RelativeLayout>
+
+</LinearLayout>

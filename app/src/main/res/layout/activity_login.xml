@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#83a1f2" >
+	
+	<com.daimajia.swipe.SwipeLayout 
+		android:id="@+id/swipe"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		app:drag_edge="top" >
+	
+		<LinearLayout
+			android:id="@+id/confirm"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical" >
+			
+			<include 
+				layout="@layout/sync_user_panel" 
+			/>
+			
+		</LinearLayout>
+	
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent" >
+	
+			<ProgressBar
+				android:id="@+id/progressbar"
+				android:layout_width="70dp"
+				android:layout_height="70dp"
+				android:layout_centerInParent="true"
+				android:indeterminateDrawable="@drawable/progressbar"
+				android:visibility="gone" >
+			</ProgressBar>
+			
+			<LinearLayout 
+				android:id="@+id/panel"
+				android:layout_width="212dp"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"
+				android:paddingTop="10dp"
+				android:orientation="vertical" >
+				
+				<com.jiusite.customview.DotsList
+					android:id="@+id/dots"
+					android:layout_width="fill_parent"
+					android:layout_height="35dp"
+					android:layout_marginBottom="20dp" />
+			
+				<LinearLayout
+					android:id="@+id/keyboard"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical" >
+				
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="55dp"
+						android:layout_marginBottom="7dp"
+						android:orientation="horizontal" >
+					
+						<Button
+							android:id="@+id/one"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="1" />
+					
+						<Button
+							android:id="@+id/two"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="2" />
+							
+						<Button
+							android:id="@+id/three"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="3" />
+					
+					</LinearLayout>
+					
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="55dp"
+						android:layout_marginTop="7dp"
+						android:layout_marginBottom="7dp"
+						android:orientation="horizontal" >
+					
+						<Button
+							android:id="@+id/four"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="4" />
+					
+						<Button
+							android:id="@+id/five"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="5" />
+							
+						<Button
+							android:id="@+id/six"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="6" />
+					
+					</LinearLayout>
+					
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="55dp"
+						android:layout_marginTop="7dp"
+						android:orientation="horizontal" >
+					
+						<Button
+							android:id="@+id/seven"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="7" />
+					
+						<Button
+							android:id="@+id/eight"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:layout_marginRight="23dp"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="8" />
+							
+						<Button
+							android:id="@+id/nine"
+							android:layout_weight="1"
+							android:layout_width="0dp"
+							android:layout_height="fill_parent"
+							android:layout_centerVertical="true"
+							android:background="@drawable/btn_login"
+							android:textSize="22dp"
+							android:onClick="key"
+							android:text="9" />
+					
+					</LinearLayout>
+				
+				</LinearLayout>
+			
+			</LinearLayout>
+			
+		</RelativeLayout>
+		
+	</com.daimajia.swipe.SwipeLayout>
+	
+</RelativeLayout>

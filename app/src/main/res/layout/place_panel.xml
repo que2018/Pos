@@ -1,0 +1,159 @@
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/place_panel"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#485ea1" >	
+	
+	<ProgressBar
+		android:id="@+id/progressbar_panel"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:indeterminateDrawable="@drawable/progressbar"
+		android:visibility="gone" >
+	</ProgressBar>
+	
+	<LinearLayout
+		android:id="@+id/button_group"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal" >
+		
+		<!-- null section -->
+		<RelativeLayout 
+			android:id="@+id/null_section"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:layout_weight="2"
+			android:background="#a4adbc" 
+			android:visibility="gone" >
+		
+		</RelativeLayout>
+		
+		<!-- placed section -->
+		<RelativeLayout 
+			android:id="@+id/placed_section"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:layout_weight="2"
+			android:background="#7299d8"
+            android:visibility="gone" >
+		
+			<Button
+				android:id="@+id/unset"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:textSize="18dp"				
+				android:textColor="#fff"
+				android:gravity="center"
+				android:layout_centerInParent="true"
+				android:background="@drawable/btn_place"				
+				android:text="@string/unset" />
+		
+		</RelativeLayout>
+		
+		<!-- order section -->
+		<LinearLayout  
+			android:id="@+id/ordered_section"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:background="#bcc9d6"
+			android:orientation="vertical" 
+			android:visibility="gone" >
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="horizontal" >
+				
+				<RelativeLayout  
+					android:layout_width="0dp"
+					android:layout_height="fill_parent"
+					android:layout_weight="1" >
+				
+					<Button
+						android:id="@+id/cancel"
+						android:layout_width="80dp"
+						android:layout_height="80dp"
+						android:textSize="18dp"				
+						android:textColor="#fff"
+						android:gravity="center"
+						android:layout_centerInParent="true"
+						android:background="@drawable/btn_cancel"				
+						android:text="@string/cancel" />
+				
+				</RelativeLayout>
+				
+				<RelativeLayout  
+					android:layout_width="0dp"
+					android:layout_height="fill_parent"
+					android:layout_weight="1" >
+				
+					<Button
+						android:id="@+id/complete"
+						android:layout_width="80dp"
+						android:layout_height="80dp"
+						android:textSize="18dp"				
+						android:textColor="#fff"
+						android:gravity="center"
+						android:layout_centerInParent="true"
+						android:background="@drawable/btn_place"				
+						android:text="@string/complete" />
+				
+				</RelativeLayout>
+				
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="horizontal" >
+				
+				<RelativeLayout  
+					android:layout_width="0dp"
+					android:layout_height="fill_parent"
+					android:layout_weight="1" >
+				
+					<Button
+						android:id="@+id/viod"
+						android:layout_width="80dp"
+						android:layout_height="80dp"
+						android:textSize="18dp"				
+						android:textColor="#fff"
+						android:gravity="center"
+						android:layout_centerInParent="true"
+						android:background="@drawable/btn_viod"				
+						android:text="@string/viod" />
+				
+				</RelativeLayout>
+				
+				<RelativeLayout  
+					android:layout_width="0dp"
+					android:layout_height="fill_parent"
+					android:layout_weight="1" >
+				
+					<Button
+						android:id="@+id/hold"
+						android:layout_width="80dp"
+						android:layout_height="80dp"
+						android:textSize="18dp"				
+						android:textColor="#fff"
+						android:gravity="center"
+						android:layout_centerInParent="true"
+						android:background="@drawable/btn_hold"				
+						android:text="@string/hold" />
+				
+				</RelativeLayout>
+				
+			</LinearLayout>
+	
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+</RelativeLayout>	

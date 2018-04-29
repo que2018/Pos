@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+	
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="65dp"
+		android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+		android:gravity="center" >
+
+        <com.jiusite.customview.TableButton
+            android:id="@+id/table_column0"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+			android:textSize="25dp"				
+			android:textColor="#fff"
+            android:layout_weight="1"
+			android:layout_marginRight="4dp"
+			android:layout_marginLeft="8dp"
+			android:clickable="true" />
+		
+		<com.jiusite.customview.TableButton
+            android:id="@+id/table_column1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+			android:textSize="25dp"				
+			android:textColor="#fff"
+            android:layout_weight="1"
+			android:layout_marginRight="4dp"
+			android:layout_marginLeft="4dp"
+			android:clickable="true" />
+			
+		<com.jiusite.customview.TableButton
+            android:id="@+id/table_column2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+			android:textSize="25dp"				
+			android:textColor="#fff"
+            android:layout_weight="1"
+			android:layout_marginRight="8dp"
+			android:layout_marginLeft="4dp"
+			android:clickable="true" />
+			
+    </LinearLayout>
+
+</RelativeLayout>
