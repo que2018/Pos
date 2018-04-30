@@ -1,4 +1,4 @@
-package com.jiusite.main;
+package com.jiusite.pos.main;
 
 import org.junit.Test;
 
