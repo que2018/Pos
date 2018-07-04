@@ -1,4 +1,4 @@
-package com.jiusite.pos.main;
+package com.jiusite.main;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

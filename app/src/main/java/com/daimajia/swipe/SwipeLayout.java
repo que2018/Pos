@@ -21,7 +21,7 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 
-import com.jiusite.pos.R;
+import com.jiusite.main.R;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
